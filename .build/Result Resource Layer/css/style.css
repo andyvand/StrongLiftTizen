@@ -1,0 +1,72 @@
+#main{
+    background-color:#FFF;
+	width: 320px;
+	header: 320px;
+	position: relative;
+}
+
+.header{
+	background-color: #000;
+	width: 320px;
+	height: 30px;
+	font-size: x-large;
+	padding-bottom: 5px;
+}
+
+.content-container {
+  width: 320px;
+  height: 290px;
+  background: #F0F0F0;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+.content-item{
+  background: #FFF;
+  width: 115px;
+  height: 115px;
+  
+  color: #FF0000;
+  text-align: center;
+  position: absolute;
+}
+
+.first{
+	top: 20px; 
+	left: 30px;
+}
+
+.second{
+	top: 20px; 
+	left: 175px;
+}
+
+.third{
+	top: 155px; 
+	left: 30px;	
+}
+
+.fourth{
+	top: 155px; 
+	left: 175px;	
+}
+
+.content-icon-wrapper{
+	height: 90px;
+  	width: 115px;
+	position: relative;
+}
+
+.content-icon{
+	position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	left: 40px; 
+	margin:auto;
+}
+
+.content-text{
+  font-size: small;
+  clear: both;
+}
