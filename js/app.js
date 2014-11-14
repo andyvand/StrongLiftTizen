@@ -6,8 +6,6 @@
 			var page = document.getElementsByClassName( 'ui-page-active' )[0],
 				pageid = page ? page.id : "";
 			
-			console.log(pageid);
-			
 			if( pageid === "main" ) 
 			{
 				try 
@@ -24,22 +22,43 @@
 		}
 	});
 	
-    var historyBtnEl = document.getElementById('history-btn');
-	historyBtnEl.addEventListener('click', onHistoryBtnClick);
+	$('body').dblclick(function(){
+		showMain();
+	});
 	
-	
-	function onHistoryBtnClick() {
-		var historyElement = document.getElementById('history');
-		historyElement.className = "ui-page ui-page-active";
-		
 
-		var mainElement = document.getElementById('main');
-		mainElement.className = "ui-page";
-    }
+	$('#video-btn').click(function(){
+		showSubPage('video');
+	});
+
+	$('#graph-btn').click(function(){
+		showSubPage('graph');
+	});
+	
+	$('#workout-btn').click(function(){
+		showSubPage('workout');
+	});
+	
+	$('#history-btn').click(function(){
+		showSubPage('history');
+	});
+	
+	function showSubPage(pageName)
+	{
+		$("#" + pageName).addClass("ui-page-active");
+		hideMainPage();
+	}
+	
+	function hideMainPage()
+	{
+		$('#main').toggleClass("ui-page-active");
+	}
 	
 	function showMain(){
-		document.getElementById('history').className = "ui-page";
-		document.getElementById('main').className = "ui-page ui-page-active";
+		$(".ui-page").each(function(index, value){
+			$(this).removeClass("ui-page-active");
+		});
+		$("#main").addClass("ui-page-active");
 	}
 	
 	

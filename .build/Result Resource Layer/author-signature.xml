@@ -28,11 +28,15 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>NMItGwPvK9SDIumVoXpwEyQTK16oAYRHipTGhqulHOY=</DigestValue>
+<DigestValue>HMlPddTPHROuCIILmMhuRd915P7/auq74eK3JmdMILU=</DigestValue>
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>wlFEbl2ud321kdaZTtPyTTjvvJkaB03cHBgHxUQBI8U=</DigestValue>
+<DigestValue>8et+bqXLQauBDWQcD4tIdD+ARsw3rgM9ZTUcvqhLOX4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery-1.9.1.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=</DigestValue>
 </Reference>
 <Reference URI="js%2FlowBatteryCheck.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -2519,11 +2523,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-MWcBJrBXURWisiezhsBiClT91l/Wk6fvKfn4tBGpFpfIpPNeYMdpzISq57KD8FQqoIF4kutzx5Jj
-NchJtOtX+b1uvOp0YCpOirs2kSU0wp1O++0ed+JxBIZD98e++lRlBMLG9j5PkDtEvs9bFPVYQ2E9
-ms0nk4NgfQ47geYcMU7pgQ4HtGIjMRJV9WgLwklEkAR0fRndllsKoV+HVNzziBHomrXFPU2WctGF
-r8c3L6XJOegG7h6WCYXMAuHoiWHRp7QhyRVGsqvQnZjXPW4kTLR5KAZnq5NS2Cb82JGW7ko/Ovl0
-2Uv1SM15+NaxqEr4C/s4Am30QKUff8krMIlrfw==
+jyjsrmBB/vQCYGRkv5Ucg3jKusA9TrNRnv0zA9KBwyRvMxyi2YI2Y5JgXso3ug8NQVgtiiHqjxRU
+4NuOES/WNBC1tiemyosHW3bZiWNGq3aomJu6IW2Bokx4mJQyTR5XpL0+iy1D/DyI+J+Nos7+Lqjo
+MSzeIMPFxbcjHIbuDkLWcGAr3LRDfilPZsRz88cX0O5WQ8mKSaNl1bxEN+kygVYjGBkLCSd2+bXK
+oVNtS3cQ2Nf99aYlmpCs+TmMcFmmxPjrla4nfIRImAQZSJNUVDZ9NHzppyHl7z6XkQnCopWBlOWy
+olgoPI6XCkAC/AoumLEB7tKbIml3+awaxfu1xQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

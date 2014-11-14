@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>FIpVV/CvddJBgdcBrJWmytBbIZcr817zDApLS3eLXWk=</DigestValue>
+<DigestValue>lVlm9uS2xvVe05KQwEzd1l7acB5CUE69cj4FDbxwBrE=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -32,11 +32,15 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>NMItGwPvK9SDIumVoXpwEyQTK16oAYRHipTGhqulHOY=</DigestValue>
+<DigestValue>HMlPddTPHROuCIILmMhuRd915P7/auq74eK3JmdMILU=</DigestValue>
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>wlFEbl2ud321kdaZTtPyTTjvvJkaB03cHBgHxUQBI8U=</DigestValue>
+<DigestValue>8et+bqXLQauBDWQcD4tIdD+ARsw3rgM9ZTUcvqhLOX4=</DigestValue>
+</Reference>
+<Reference URI="js%2Fjquery-1.9.1.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=</DigestValue>
 </Reference>
 <Reference URI="js%2FlowBatteryCheck.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -2523,11 +2527,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-SmfAl59IvY9FaP+Km5T//5M4H0i3u3HgU0Hy2f47Au6gcRYPYxLStSuRGHPge/7cOBzfP/rnrWmI
-P5SX33d6AwMUj8wv49g22P97NT8ngdZpM4Yt9aZUY7bs2Y+Kp2yJCAsf/iuJxHoRWgeHXDE79CVt
-Vr1YIleowlw3hERazT5uhLJnQq+FQlF3kjpFqxcaAKJiFEMMFTHSZ5EwVtiyUukkAAUiayG5/+em
-BHSaICkKyk+G0lkc9/7dyddyhGE4Yy6B9OB+quGQFpMZYC5zvwcqYSuLud6OBV/wC5ICOyECiYUT
-NwcR9NSidWRcbHRRHqAUAvMt1m5owHRtW1fLAg==
+kqmKhTnIcN6uLaBGalVDUoYfhb9K93zPqVNWwUB7SOO/cHIgNo0MUo4HWjcoKjgnihlstF74ZhLo
+obcT1AsK8Swg3WZH2LzB4j/pgRMk0lcrK0DsM/ab6KChlgfx6gMPzsJP+60cumnHGVH3PhCociXo
+g+2guyB+4SsOMUhRHhXdZ5FRlIo3x+15N9nNCetESRkXwBO9TjBTes3YywwDBwjAx2bMWsUSxvkU
+i2k//A96wtJaVbUDyQYBeZO5M7O3MStWufdr80aYVwkYyO9jB/d+HEuJgnXnHJbyIpGjEdF5XcU5
+RmEIYC8sz0p33Wab5lxJ8/tFBS/K2F4pm0zPfg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

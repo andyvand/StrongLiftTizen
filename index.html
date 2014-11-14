@@ -6,13 +6,14 @@
 	<link rel="stylesheet"  href="lib/tau/wearable/theme/default/tau.min.css">
 	<!-- load theme file for your application -->
 	<link rel="stylesheet"  href="css/style.css">
+	<script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
 </head>
 <body>
 	<div class="ui-page ui-page-active" id="main">
 		<div class="header"><a data-transition="slideup">STRONGLIFTS</a></div>
 		<div class="content-container">
 			<div class="content-item first">
-				<div class="content-icon-wrapper">
+				<div class="content-icon-wrapper" id="workout-btn">
 					<img src="images/plus-icon.png" height=35px; width=35px; class="content-icon">
 				</div>
 				<div class="content-text">New Workout</div>
@@ -24,13 +25,13 @@
 				<div class="content-text">History</div>
 			</div>
 			<div class="content-item third">
-				<div class="content-icon-wrapper">
+				<div class="content-icon-wrapper" id="graph-btn">
 					<img src="images/graph-icon.png" height=35px; width=35px; class="content-icon">
 				</div>
 				<div class="content-text">Graph</div>
 			</div>
 			<div class="content-item fourth">
-				<div class="content-icon-wrapper">
+				<div class="content-icon-wrapper" id="video-btn">
 					<img src="images/play-icon.png" height=35px; width=35px; class="content-icon">
 				</div>
 				<div class="content-text">Videos</div>
@@ -38,8 +39,18 @@
 		</div>
 	</div>
 	<div class="ui-page" id="history">
-		history
+		History
 	</div>
+	<div class="ui-page" id="workout">
+		New Work Out
+	</div>
+	<div class="ui-page" id="graph">
+		Graph
+	</div>
+	<div class="ui-page" id="video">
+		Videos
+	</div>
+	
 </body>
 <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
 <!-- load javascript file for your application -->
