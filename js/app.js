@@ -22,27 +22,16 @@
 		}
 	});
 	
+	
+	$('[data-navigationid]').click(function(){
+		showSubPage($(this).attr('data-navigationid'));
+	});
+	
 	$('body').dblclick(function(){
 		showMain();
 	});
 	
 
-	$('#video-btn').click(function(){
-		showSubPage('video');
-	});
-
-	$('#graph-btn').click(function(){
-		showSubPage('graph');
-	});
-	
-	$('#workout-btn').click(function(){
-		showSubPage('workout');
-	});
-	
-	$('#history-btn').click(function(){
-		showSubPage('history');
-	});
-	
 	function showSubPage(pageName)
 	{
 		$("#" + pageName).addClass("ui-page-active");
