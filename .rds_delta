@@ -2,5 +2,5 @@
 #add
 #modify
 res/wgt/author-signature.xml
-res/wgt/js/app.js
+res/wgt/js/views/page/history.js
 res/wgt/signature1.xml
